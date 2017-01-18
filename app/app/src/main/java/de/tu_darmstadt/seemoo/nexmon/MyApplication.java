@@ -404,7 +404,6 @@ public class MyApplication extends Application {
         startService(new Intent(getAppContext(), APfinderService.class));
         startService(new Intent(getAppContext(), AttackService.class));
         startService(new Intent(getAppContext(), RawSocketReceiveService.class));
-
     }
 
     public void initLibs() {
